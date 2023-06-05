@@ -4,11 +4,11 @@ This simulation models the 2D Ising model, a simplified representation of ferrom
 
 <table>
   <tr>
-    <td>
-      <img src="demo1.gif" width="50%">
+    <td align="center">
+      <img src="demo1.gif" width="100%">
     </td>
-    <td>
-      <img src="demo2.gif" width="50%">
+    <td align="center">
+      <img src="demo2.gif" width="100%">
     </td>
   </tr>
 </table>
