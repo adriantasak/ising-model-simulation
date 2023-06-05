@@ -2,7 +2,16 @@
 
 This simulation models the 2D Ising model, a simplified representation of ferromagnetism in physics. The Ising model considers a lattice of spins that can adopt one of two values (-1 or +1), representing alignment of moments in a magnetic material. This script generates an evolving system of such spins over time, and creates a GIF animation to visualize this dynamic process.
 
-<img src="./demo.gif" width="480" height="480" />
+<table>
+  <tr>
+    <td>
+      <img src="demo1.gif" width="50%">
+    </td>
+    <td>
+      <img src="demo2.gif" width="50%">
+    </td>
+  </tr>
+</table>
 
 ## Usage
 
