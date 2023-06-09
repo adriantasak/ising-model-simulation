@@ -1,10 +1,5 @@
 library(animation)
 
-# Function to calculate the magnetisation of the grid.
-calculateMagnetisation <- function(grid) { 
-  mean(grid) 
-}
-
 # Function to calculate the total energy of the grid. Takes into account periodic boundary conditions.
 calculateEnergy <- function(grid, gridSize, coupling = 1) { 
   # Arrays to store the energy contribution of each row and column.
@@ -81,6 +76,6 @@ animateFlips <- function(gridSize, numSteps, temp, plotInterval) {
   list(
     finalState = grid, 
     finalEnergy = calculateEnergy(grid, gridSize), 
-    finalMagnetisation = calculateMagnetisation(grid)
+    finalMagnetisation = mean(grid)
   )
 }
