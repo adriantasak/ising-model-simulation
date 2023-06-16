@@ -46,6 +46,9 @@ animateFlips <- function(gridSize, numSteps, temp, plotInterval) {
   
   # Initialize the grid with random spins.
   grid <- matrix(sample(c(-1, 1), gridSize^2, replace = TRUE), gridSize, gridSize)
+
+  # Set GIF's frame duration.
+  ani.options(interval = 0.1)
   
   # Animate and save the animation as a GIF.
   saveGIF({
